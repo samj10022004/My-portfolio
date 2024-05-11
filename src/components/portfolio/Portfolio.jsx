@@ -7,25 +7,29 @@ const items = [
         id:1,
         title:"Snapgram",
         img:"./Snapgram.png",
-        desc:"Discover a vibrant community of photographers on this platform, where you can share your best moments through high-resolution images. Engage in conversations, explore captivating still imagery, and connect with fellow artists. Say goodbye to video overload and embrace authentic, unfiltered photo sharing!"
+        desc:"Discover a vibrant community of photographers on this platform, where you can share your best moments through high-resolution images. Engage in conversations, explore captivating still imagery, and connect with fellow artists. Say goodbye to video overload and embrace authentic, unfiltered photo sharing!",
+        link:"https://snapgram-olive-delta.vercel.app/",
     },
     {
         id:2,
         title:"Imagify",
         img:"./Imagify.png",
-        desc:"Unlock the potential of your photos with our cutting-edge AI photo editor. Seamlessly enhance, retouch, and optimize your images using advanced algorithms. Whether you’re a professional photographer or just love snapping pictures, our intuitive interface and powerful AI tools will elevate your editing game!"
+        desc:"Unlock the potential of your photos with our cutting-edge AI photo editor. Seamlessly enhance, retouch, and optimize your images using advanced algorithms. Whether you’re a professional photographer or just love snapping pictures, our intuitive interface and powerful AI tools will elevate your editing game!",
+        link:"https://full-stack-ai-imagify.vercel.app/",
     },
     {
         id:3,
         title:"Ecommerce",
         img:"./Ecommerce.avif",
-        desc:"An e-commerce website is an online store where goods and services are traded between buyers and sellers over the internet. Unlike a physical storefront, an e-commerce website can be accessed at any time, from anywhere, as long as there’s an internet connection."
+        desc:"An e-commerce website is an online store where goods and services are traded between buyers and sellers over the internet. Unlike a physical storefront, an e-commerce website can be accessed at any time, from anywhere, as long as there’s an internet connection.",
+        link:"https://github.com/samj10022004/ecommerce",
     },
     {
         id:4,
         title:"Portfolio",
         img:"./Portfolio.png",
-        desc:"A portfolio is a curated compilation of your best work. A portfolio website is simply a digital version of this that can be accessed and shared online. Portfolios serve as a tangible demonstration of one’s skills and abilities. Whether you’re an artist, designer, photographer, writer, or any other creative professional, a portfolio website allows you to showcase your projects, achievements, skills, and experiences in an organized and visually appealing manner."
+        desc:"A portfolio is a curated compilation of your best work. A portfolio website is simply a digital version of this that can be accessed and shared online. Portfolios serve as a tangible demonstration of one’s skills and abilities. Whether you’re an artist, designer, photographer, writer, or any other creative professional, a portfolio website allows you to showcase your projects, achievements, skills, and experiences in an organized and visually appealing manner.",
+        link:"my-portfolio-gilt-rho.vercel.app",
     },
 ]
 
@@ -48,7 +52,7 @@ const Single=({item})=>{
                     <motion.div className="textContainer" style={{y}}>
                         <h2 >{item.title}</h2>
                         <p>{item.desc}</p>
-                        <button>See Demo</button>
+                        <button><a href={item.link}>See Demo</a></button>
                     </motion.div>
                 </div>
             </div>
