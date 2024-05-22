@@ -59,7 +59,6 @@ const Hero = () => {
             React  Next.Js  Javascript
         </motion.div>
         <div className="imageContainer">
-            <img src="./hero.png" alt="hero image" />
         </div>
     </div>
   )
