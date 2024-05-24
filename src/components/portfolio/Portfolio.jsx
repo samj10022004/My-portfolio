@@ -22,7 +22,7 @@ const items = [
         title:"Food Delivery (Tomato)",
         img:"./tomato.png",
         desc:"Tomato is a food delivery web app built with the MERN stack, offering an intuitive user interface for browsing restaurants, viewing menus, and placing orders. It includes a comprehensive admin panel for managing restaurants, orders, and users. Tomato ensures a seamless, secure, and scalable experience for both customers and administrators.",
-        link:"https://github.com/samj10022004/Food-Del",
+        link:"https://food-del-frontend-steel.vercel.app",
     },
     {
         id:4,
