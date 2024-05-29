@@ -15,7 +15,7 @@ const items = [
         title:"Movie Park",
         img:"./MoviePark.png",
         desc:"Movie Park is your ultimate destination for all things cinema and television. Explore detailed information on movies and TV shows, including ratings, reviews, and cast details. Stay updated with the latest releases and discover your next favorite binge with Movie Park.",
-        link:"https://https://movie-park-henna.vercel.app/",
+        link:"https://movie-park-henna.vercel.app/",
     },
     {
         id:3,
